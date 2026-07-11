@@ -7,7 +7,7 @@ class Neo4jService:
 
         self.driver = GraphDatabase.driver(
             "bolt://127.0.0.1:7687",
-            auth=("neo4j", "Saurabh@12345")
+            auth=("neo4j", "Your pwd here")
         )
 
     def execute(self, query, parameters=None):
