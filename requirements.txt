@@ -1,0 +1,6 @@
+pymupdf
+python-docx
+pandas
+numpy
+python-dotenv
+pydantic
